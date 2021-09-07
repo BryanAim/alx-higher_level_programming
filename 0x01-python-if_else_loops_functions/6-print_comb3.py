@@ -5,4 +5,3 @@ for i in range(10):
             print("{}{}".format(i, j))
         elif i != j and j > i:
             print("{}{}, ".format(i, j), end="")
-
