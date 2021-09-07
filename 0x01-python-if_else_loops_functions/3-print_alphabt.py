@@ -1,4 +1,4 @@
-for i in range(ord('a'), ord('z') + 1):
-    if i == 101 or i == 113:
-        continue
-    print("{}".format(chr(i)), end="")
+#!/usr/bin/python3
+for c in range(97, 123):
+    if c != 101 and c != 113:
+        print('{}'.format(chr(c)), end='')
